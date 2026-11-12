@@ -1,7 +1,7 @@
 Goal is to create a game focus on teaching and practicing the fundamentals of Linux
 Two options to decide between at this point: 
 1) Fighting Game 
-- have a tutorial to teach the Linux and how to play | 
+- have a tutorial to teach the Linux and how to play
 - a beginner mode to start practicing and further teach Linux
 - intermediate and hard modes to up difficulty/change recall type 
 - regular fights and boss battles with different ways to "fight" them
@@ -15,4 +15,23 @@ Two options to decide between at this point:
 - questions give more or less movement based on question difficulty (could ask question and allow user to choose how they want to answer - full recall (no multi choice), 4 option multi choice, 2 option multi choice, etc)
 
 I think the fighting game would be much more fun tbh 
-but the racing game would allow the user
+but the racing game would allow the user to play with others
+
+DECISIONS
+- Create the Racing Game. It will be easier to program to start, and I can always create the fighting game later
+- have multiple maps for different difficulties
+- have visible scoring mechanism
+- have a learning mode and a coding mode
+-- learning mode should:
+--- encourage the student to use their CLI to test out prompts before answering
+--- be multiple choice 
+--- not be timed
+-- coding mode should:
+--- prompt the student with the answers from learning mode
+--- have the student respond with the command they were originally prompted with in learning mode
+--- have a timing function (think Kahoot - faster answers = more points, but only if they are correct)
+--- give 3 chances for student to answer correctly before giving the answer and prompting them for the next question
+--- if more than one command could work as the answer, accept any of the potential responses as correct
+- have a race your friends mode (local multiplayer; one device)
+-- players take turns answering the same question and get points based on who answered faster
+-- compatible with coding mode
