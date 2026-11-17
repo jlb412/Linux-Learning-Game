@@ -1,16 +1,28 @@
 Commands:
+Review variety of common commands for users. Categorize as basic, class specific, and include options/argument information as applicable
+higher difficulty level will require knowledge of/encourage practice of options in addition the to commands themselves
 ls | List
 pwd | print working directory
-cat |
 cd | change directory
 md | make directory
+help | get information about commands
+date | displays day of the week, the month, the day, and the time, followed by year. time is in 24-hour format
+
+
+Options:
+Review common, helpful options on their own (such as --help), separate from Commands.
+This will allow users to separately learn these helpful options which will in turn be applicable to most commands
 
 Terms:
 Directory | file folder in device storage
 Working directory | currently selected folder
 CLI | Command Line Interface
+options | optional addition(s) to a command that change what your result will be
+arguments | optional addition(s) to a command (such as a file or path) to ensure the command has the correct content 
 
-Tasks:
-Opening CLI | open system Command Prompt
-Linux and GitHub | 
-Linux in Digital Forensics | 
+Tasks to review:
+Where Linux can be used | Systems running on Linux, virtual machines running Linux, Kali Linux, etc. 
+Opening CLI | varies depending on system choice. 
+-- Review Windows Subsystem for Linux setup + startup (for those who have not set up Kali Linux) 
+-- and partner with Professor Smith for how he has students set up Kali Linux to be safe for them 
+----(so that information can be reviewed in the game as an option as well)
