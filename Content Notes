@@ -20,6 +20,13 @@ CLI | Command Line Interface
 options | optional addition(s) to a command that change what your result will be
 arguments | optional addition(s) to a command (such as a file or path) to ensure the command has the correct content 
 
+General Linux:
+Linux is case sensitive - commands generally must be in lowercase letters
+Options usually have a minus sign prior to it's symbol of choice (often a single lowercase letter or a short word describing its function
+More than one option can be specified for a single command
+Arguments are needed for certain commands and options, but not all of them. It has additional information for the command to operate on, such as a file or path
+Command line format: $ command -options arguments | $ is the system prompt, command is the name of the command in use, -options is the minus symbol then the option designation (as applicable - not always needed), and arguments are the files names or path names (as applicable - not always needed)
+
 Tasks to review:
 Where Linux can be used | Systems running on Linux, virtual machines running Linux, Kali Linux, etc. 
 Opening CLI | varies depending on system choice. 
